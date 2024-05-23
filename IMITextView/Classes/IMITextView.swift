@@ -36,6 +36,7 @@ public class IMITextView: UIScrollView {
         let textView = IMUITextView(frame: .zero, textContainer: container)
         textView.translatesAutoresizingMaskIntoConstraints = false
         textView.backgroundColor = .clear
+        textView.autocorrectionType = .no
         textView.contentInset = .zero
         textView.clipsToBounds = false
         textView.textContainerInset = .init(top: 12.0, left: 24.0, bottom: 12.0, right: 24.0)
